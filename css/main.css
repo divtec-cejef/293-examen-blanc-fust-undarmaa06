@@ -27,6 +27,15 @@ a {
     text-decoration: none;
     color: #ff8800;
 }
+a :hover {
+    color: #666666;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    width: 800px;
+}
 
 /********** STYLE HEADER *********/
 header {
@@ -35,6 +44,9 @@ header {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
+.logo {
+    max-height: 80px;
+}
 /********** STYLE NAVIGATION *********/
 
 header nav ul {
