@@ -83,11 +83,16 @@ main {
 
 /********** PAGE NOS PRODUITS *********/
 .produits {
-    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
     padding: 0;
 }
 
 .produits li {
+    flex-basis: 50%;
     padding: 2% 1rem;
     transition: all 0.2s ease-in-out;
 }
@@ -100,6 +105,7 @@ main {
     text-align: center;
     margin: 0;
     padding: 1.5rem .75rem;
+    border: 2px #151515 solid;
 }
 
 .produits figcaption {
@@ -111,4 +117,5 @@ main {
     text-align: center;
     margin: .5em 0 0;
     line-height: 1.1;
+    color: #ff8800;
 }
